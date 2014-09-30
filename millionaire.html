@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Douglas Blase </title>
+                <meta name="description" content="">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/lightbox.css" rel="stylesheet" />
+        <script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/lightbox-2.6.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <header>
+    	<h1> Douglas Blase </h1>
+    </header>
+    <body>
+	    			
+    	<article>
+    		<nav>
+    			<a href="index.html">Home</a>
+    			<a class="selected" href="projects.html">Projects</a>
+    			<a href="resume.html">Resume</a>
+    		</nav>
+    		<div class="Content">
+    			<p>A homework assignment in the second Java programming class was to 
+    			create a console-based quiz that could support a variety of question 
+    			types. While working on the homework, I realized that this program could 
+    			easily be adapted to a Who Wants to be a Millionaire? program.</p>
+    			 
+    			 <p>I took the code from the homework assignment and imported it to the 
+    			 Processing programming environment. All that was left to do was 
+    			 code/create the graphical aspect of the program, including sounds. As 
+    			 each new sound and graphical element was added to the program, it was 
+    			 tested to make sure that it was triggered at the appropriate time.
+    			 </p>
+    			 
+				<p> It was fairly simple to port over the Java code from Eclipse to the 
+				Processing environment, likely because of the class structure used in the 
+				original homework assignment. The inheritance used in the class structure
+				 kept the code simple to use and easy to modify. When the program was finished,
+				it was exported as a standalone application, with screenshots shown to
+				the right.
+
+    		</div class="Content">
+    	    	<figure class="top">
+    				<img src="img/millionaire.png"/>
+				</figure class="top">
+				<figure class="bottom">
+    				<img src="img/millionaire2.png"/>
+				</figure class="bottom">
+				</article>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    <script>
+    	function revealNavItems(navItem){
+    		$(navItem).toggleClass("revealed");
+    	}
+    </script>
+</html>

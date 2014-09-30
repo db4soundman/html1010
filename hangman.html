@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Douglas Blase </title>
+                <meta name="description" content="">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/lightbox.css" rel="stylesheet" />
+        <script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/lightbox-2.6.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <header>
+    	<h1> Douglas Blase </h1>
+    </header>
+    <body>
+	    			
+    	<article>
+			<nav>
+    			<a href="index.html">Home</a>
+    			<a class="selected" href="projects.html">Projects</a>
+    			<a href="resume.html">Resume</a>
+    		</nav>
+    		<div class="Content">
+    			<p>A homework assignment in the second Java programming class was to 
+    			create a console-based game of Hangman, where points would be awarded for 
+    			guessing a correct letter and having points taken away for guessing an 
+    			incorrect letter. While completing the assignment, I realized I could make
+    			 a graphical version of this assignment in Processing. </p>
+    			  
+    			<p>I copied the Java files, created in Eclipse, from the homework assignment and imported them into the Processing environment. 
+    			 I then added the graphical components to the Hangman class so that the 
+    			 user could tell when they were running out of guesses based on how many 
+    			 body parts of the man were hanging from the noose. As I added the 
+    			 graphical components I iteratively tested the program to verify that the
+    			  graphics accurately represented the game’s state. </p>
+    			  
+    			  <p>The most difficult aspect of this project was getting the program to
+    			  work in JavaScript mode, which has significant performance bonuses since
+    			  Java applets are slowly losing support from Internet browsers. While most
+    			  of the code worked right away, the display of guesses was not working 
+    			  because JavaScript wanted to represent the letters as their char equivalents.
+    			  I finally found a "String.fromCharCode()" method that returned the
+    			  actual letter that the user typed, which completed my program. </p>
+			
+    		</div class="Content">
+    		<figure class="top">
+    			<img src="img/hangman.png"/>
+			</figure class="top">
+			<div class="link">
+				<a href="http://www.users.miamioh.edu/blasedd/Hangman">Try the game here! 
+    			 </a>
+    		</div>
+    	</article>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    <script>
+    	function revealNavItems(navItem){
+    		$(navItem).toggleClass("revealed");
+    	}
+    </script>
+</html>

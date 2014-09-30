@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Douglas Blase </title>
+                <meta name="description" content="">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/lightbox.css" rel="stylesheet" />
+        <script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+    </head>
+    <header>
+    	<h1> Douglas Blase </h1>
+    </header>
+    <body>
+	    			
+    	<article>
+    		<nav>
+    			<a href="index.html">Home</a>
+    			<a class="selected" href="projects.html">Projects</a>
+    			<a href="resume.html">Resume</a>
+    		</nav>
+    		<div class="Content">
+    			<p>In my introduction to software engineering class, we were working on 
+    			projects to help the Opening Minds through Art (OMA) program’s art sessions. 
+    			In particular, my group was assigned to make an application that would assist
+    			 the OMA workers in communicating with its Russian-speaking patrons.</p>
+    			 
+    			 <p>To do this, we elected to make a website for them to use that contained 
+    			 all of the phrases OMA would need to use and the translations. The phrase 
+    			 data is stored in an XML file. To ensure the XML file is always formatted 
+    			 correctly, I led the production of a Java program that would use the data 
+    			 in the XML file and allow the data to be edited or created. To create the 
+    			 program, I first created the class structure based on Object Oriented Programming methodology.
+    			 I wrote a tester
+    			 program that only tried to read in the file to verify that I had my class 
+    			 structure set up correctly. Once that test passed, I created each piece 
+    			 of the program’s functionality individually and tested that each function 
+    			 worked and didn’t encounter any errors. I followed this methodology until 
+    			 the entire program was built. Extensive testing was performed to verify 
+    			 that the program would not crash on the user.</p>
+    			 
+    			 <p>JLists proved to be a challenge with this project, as it would originally
+    			 produce a small view window to the list of phrases the user could edit, and
+    			  the scroll bar was not showing up. I soon realized that I needed to create
+    			  a custom ViewPort for the JList with defined dimensions instead of letting
+    			  Java calculate the dimensions itself. This solved the problem and produced
+    			  the GUI shown to the right.</p>
+    			 
+    			
+			
+    		</div class="Content">
+    	<figure class="top">
+    				<img src="img/oma.png"/>
+		</figure class="top">
+		</article>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    <script>
+    	function revealNavItems(navItem){
+    		$(navItem).toggleClass("revealed");
+    	}
+    </script>
+</html>

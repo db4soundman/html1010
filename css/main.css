@@ -1,0 +1,447 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body{
+	background-color:BLACK;
+	background-image:url('../img/code.png');
+	font-size: 100%;
+	padding:0px;
+	margin: 0px;
+}
+
+header{
+	text-align:center;
+	font: normal 1.1em Courier;
+	background-color: #DE903C;
+	color: white;
+	/*background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #1736B3),
+	color-stop(1, #61ADFF)
+);
+background-image: -o-linear-gradient(top, #1736B3 0%, #61ADFF 100%);
+background-image: -moz-linear-gradient(top, #1736B3 0%, #61ADFF 100%);
+background-image: -webkit-linear-gradient(top, #1736B3 0%, #61ADFF 100%);
+background-image: -ms-linear-gradient(top, #1736B3 0%, #61ADFF 100%);
+background-image: linear-gradient(to top, #1736B3 0%, #61ADFF 100%); */
+}
+article{
+	color: #238BFF;
+	width: 90%;
+	margin: 0px auto 0px auto;	
+}
+hr{
+clear: both;
+}
+
+nav{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	font: normal 1.3em Courier;
+	text-align:center;
+	margin-bottom: 1%;
+	margin-top: -2%;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #ABA9AB),
+	color-stop(1, #696769)
+);
+background-image: -o-linear-gradient(bottom, #ABA9AB 0%, #696769 100%);
+background-image: -moz-linear-gradient(bottom, #ABA9AB 0%, #696769 100%);
+background-image: -webkit-linear-gradient(bottom, #ABA9AB 0%, #696769 100%);
+background-image: -ms-linear-gradient(bottom, #ABA9AB 0%, #696769 100%);
+background-image: linear-gradient(to bottom, #ABA9AB 0%, #696769 100%); 
+	color: white;
+	
+	
+}
+
+nav a {
+	margin: 0px 2% 0px 2%;
+	padding: 0px 2% 0px 2%;
+}
+h4{
+font: normal 1.1em Courier;
+	line-height: 100%;
+	text-align:center;
+	margin-bottom: .5%;
+	margin-top:.4%;
+}
+
+p.normal{
+	display:none;
+	
+}
+
+p.revealed{
+	display:block;
+	font: normal .8em Georgia;
+	line-height: 200%;
+	text-align:center;
+	margin-bottom: 1%;
+	margin-top:10%;
+}
+
+
+
+div.cycle-slideshow{
+float:none;
+margin: 0px auto 0px auto;
+	width: 80%;
+}
+
+div.Content{
+	float: left;
+	background-color: #B4C3F4;
+	padding: 0% 2% 0% 2%;
+	width: 60%;
+	height:90%;
+	color: black;
+	text-align:justify;
+	margin: 0px 1% 1% 1%;
+}
+div.Content a{
+	color:#B76106;
+}
+
+div.ContentMain{
+	background-color: #B4C3F4;
+	padding: 0% 2% 0% 2%;
+	width: 80%;
+	height:90%;
+	color: black;
+	text-align:justify;
+	margin: 0px auto 1% auto;
+}
+
+div.Links{
+	float: none;
+	font: normal 1em Courier;
+	background-color: #B4C3F4;
+	padding: 0% 2% 0% 2%;
+	width: 70%;
+	height:90%;
+	color: black;
+	text-align:center;
+	margin: 0px auto 0px auto;
+}
+
+div.Links a:hover{
+	background-color: black;
+	font-size: 140%;
+	color: white;
+}
+
+div.link{
+	width: 32%;
+	margin: 2% auto 0px auto;
+	float:right;
+	background-color:#DE903C;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-align:center;
+}
+
+div.link a{
+	color:white;
+	font: bold 1.2em Courier;
+	margin: 0%;
+
+}
+
+figure{
+	width: 30%;
+	padding: 2%;
+	box-shadow: 0px 2px 5px #C5BFB1;
+	float:right;
+}
+
+figure.top{
+	-webkit-transform: rotate(1deg);
+}
+
+figure.bottom{
+	-webkit-transform: rotate(-1deg);
+}
+
+
+img {
+	max-width: 100%;
+}
+
+a{
+ text-decoration: none;
+ color: inherit;
+ 	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+}
+
+a.selected{
+	background-color:#DE903C;
+}
+
+a.selected:hover{
+	background-color:#DE903C;
+}
+
+nav a:hover{
+	background-color: black;
+}
+
+h4:hover{
+	cursor:pointer;
+	background-color: black;
+	 transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+   
+   @media only screen and (max-width: 500px) {
+		body{
+			font-size:120%;
+		}
+		nav{
+			float:none;
+		}
+		
+		nav a {
+			margin: 0px auto 0px auto;
+		}
+		
+		div.Slideshow{
+			float:none;
+		}
+		figure{
+			float:none;
+			width:98%;
+			margin: 1% 2% 0% 2%;
+		}
+		div.Content{
+			margin: 0px 1% 2% 1%;
+			width:96%;
+		}
+		
+		
+	div.link{
+		width: 90%;
+		margin: 2% auto 0px auto;
+		float:none;
+		text-align:center;
+	}
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
